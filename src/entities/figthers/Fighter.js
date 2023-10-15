@@ -7,7 +7,7 @@ export class Fighters{
         this.velocity = velocity;
         this.animationFrame = 0;
         this.animationTimer = 0;
-        this.state = 'walkforwards';
+        this.state = 'walkForwards';
         this.animations = {};
     }
 
@@ -29,6 +29,9 @@ export class Fighters{
     }
 
     drawDebug(context){
+        
+        context.lineWidth = 1;
+
         context.beginPath();
         context.strokeStyle = 'white';
         context.moveTo(this.position.x - 5, this.position.y);
