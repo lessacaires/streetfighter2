@@ -27,7 +27,7 @@ export class Ryu extends Fighters{
         
         this.animations = {
             'walkForwards': ['forwards-1','forwards-2','forwards-3','forwards-4','forwards-5','forwards-6'],
-            'walkbackwards': ['backwards-1','backwards-2','backwards-3','backwards-4','backwards-5','backwards-6'],
+            'walkBackwards': ['backwards-1','backwards-2','backwards-3','backwards-4','backwards-5','backwards-6'],
         }
     }
 }
